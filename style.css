@@ -152,7 +152,7 @@ nav .fa{
         display: block;
     }
     .nav-links{
-        position: absolute;
+        position: fixed;
         background-color: #678b4f;
         height: 100vh;
         width: 200px;
