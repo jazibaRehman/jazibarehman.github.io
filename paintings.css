@@ -1,0 +1,42 @@
+.sub-header-2{
+    width: 100%;
+    min-height: 50vh;
+    background-image: linear-gradient(rgba(52, 63, 53, 0.7),rgba(46, 63, 49, 0.7)), 
+    url(images/village.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+h1{
+    color: white;
+    font-size: 62px;
+    text-align: center;
+}
+
+.Aquarell{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.image-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.image-col img{
+    width: 100%;
+    display: inline-block;
+}
+
+.Acrylic{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}

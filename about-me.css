@@ -1,0 +1,53 @@
+.sub-header{
+    width: 100%;
+    min-height: 50vh;
+    background-image: linear-gradient(rgba(52, 63, 53, 0.7),rgba(46, 63, 49, 0.7)), 
+    url(images/Namaz-center.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-top: 100px;
+}
+
+h1{
+    color: white;
+    font-size: 62px;
+    text-align: center;
+}
+
+/* Text section */
+.text-section{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.about-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+    display: inline-block;
+    position: relative;
+}
+
+.about-col img{
+    width: 100%;
+    border-radius: 20px;
+    transition: 0.2s;
+    position: relative;
+}
+
+.about-col img:hover {
+    opacity: 80%;
+    cursor: pointer;
+}
+
+
+.about-col h1{
+    padding-top: 0;
+}
+
+.about-col p{
+    padding: 15px 0 25px;
+}
+

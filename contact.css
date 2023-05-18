@@ -1,0 +1,54 @@
+.contact_us {
+    width: 80%;
+    margin: auto;
+}
+
+
+
+.contact_col {
+    flex-basis: 48%;
+    margin-bottom: 30px;
+    flex: 1;
+}
+.contact_col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contact_col img{
+    width: 100%;
+    border-radius: 20px;
+    transition: 0.2s;
+    position: relative;
+}
+
+.contact_col input, .contact_col textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.hero-btn2{
+    display: inline-block;   
+    text-decoration: none;
+    color: rgb(64, 119, 69);
+    border: 1px solid;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+
+.hero-btn2:hover{
+    border: 1px solid #678b4f;
+    background-color: #678b4f;
+    transition: 0.2s;
+    color: white;
+}
